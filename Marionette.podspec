@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   # FIXME: https://github.com/artman/Signals/issues/75
   # s.osx.deployment_target = "10.13"
 
-  s.source       = { :git => "https://github.com/LinusU/Marionette.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/LinusU/Marionette.git", :tag => s.version }
   s.source_files = "Sources"
 
   s.dependency "LinusU_JSBridge", "1.0.0-alpha.15"
