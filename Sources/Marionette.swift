@@ -175,6 +175,15 @@ open class Marionette: NSObject, WKNavigationDelegate {
     private let onNavigationFinished = Signal<WKNavigation>()
 
     public override init() {
+        // Load jquery
+        let path = Bundle.main.path(forResource: "jquery", ofType: "js")
+        var jquery = ""
+        do {
+            jquery = try String(contentsOfFile: path!)
+        }
+        catch {
+        }
+        //
         bridge = JSBridge(libraryCode: HELPER_CODE, headless: false, incognito: true)
         webView = bridge.webView!
 

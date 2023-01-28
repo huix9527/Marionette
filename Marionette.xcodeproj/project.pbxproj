@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5CA496D2984D4780033457B /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
 		FR_2E5E5ECEB7EA2D3ED99C155C6347D357 /* Marionette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marionette.swift; sourceTree = "<group>"; };
 		FR_372C1A19A387AE97A5227CBDAFBC4E37 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromiseKit.framework; sourceTree = "<group>"; };
 		FR_4A83683F36AC2C76365CD101A2FAE1CB /* JSBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSBridge.framework; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		G_89A51A7B0C99285428450E19E18BBD5C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A5CA496D2984D4780033457B /* jquery.js */,
 				FR_F1E2913D365DBB77DF28C5980F6B08B8 /* Info.plist */,
 				FR_2E5E5ECEB7EA2D3ED99C155C6347D357 /* Marionette.swift */,
 			);
