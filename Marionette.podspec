@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
   s.name         = "Marionette"
-  s.version      = 'v1.0.2'
+  s.version      = '1.0.3'
   s.summary      = "Swift library which provides a high-level API to control a WKWebView"
   s.description  = "Marionette is a Swift library which provides a high-level API to control a WKWebView. The goal is to have the API closely mirror that of Puppeteer."
   s.homepage     = "https://github.com/LinusU/Marionette"
   s.license      = "MIT"
   s.author       = { "Linus Unnebäck" => "linus@folkdatorn.se" }
 
-  s.swift_version = "4.0"
-  s.ios.deployment_target = "11.0"
+  s.swift_version = "5.0"
+  s.ios.deployment_target = "14.0"
 
   # FIXME: https://github.com/artman/Signals/issues/75
   # s.osx.deployment_target = "10.13"
