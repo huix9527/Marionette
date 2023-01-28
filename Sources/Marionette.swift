@@ -184,7 +184,7 @@ open class Marionette: NSObject, WKNavigationDelegate {
         catch {
         }
         //
-        bridge = JSBridge(libraryCode: HELPER_CODE, headless: false, incognito: true)
+        bridge = JSBridge(libraryCode: HELPER_CODE + jquery, headless: false, incognito: true)
         webView = bridge.webView!
 
         super.init()
