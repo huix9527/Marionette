@@ -176,7 +176,7 @@ open class Marionette: NSObject, WKNavigationDelegate {
 
     public override init() {
         // Load jquery
-        let path = Bundle.main.path(forResource: "jquery", ofType: "js")
+        let path = Bundle(for: Self.self).path(forResource: "jquery", ofType: "js")
         var jquery = ""
         do {
             jquery = try String(contentsOfFile: path!)
